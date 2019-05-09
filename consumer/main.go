@@ -18,7 +18,7 @@ func main() {
 
 	mb := MBConsumer{}
 
-	cf := config.NewRealtimeConfig("config", "$GOPATH/src/bitbucket.org/mirzaakhena/nsqtest/")
+	cf := config.NewRealtimeConfig("config", "$GOPATH/src/github.com/mirzaakhena/nsqtest/")
 
 	log.GetLog().Info("Consumer.main", "address: %s", cf.GetNSQdURL())
 
