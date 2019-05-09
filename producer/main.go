@@ -16,7 +16,7 @@ type MBProducer struct {
 
 func main() {
 
-	cf := config.NewRealtimeConfig("config", "$GOPATH/src/bitbucket.org/nsqtest/")
+	cf := config.NewRealtimeConfig("config", "$GOPATH/src/bitbucket.org/mirzaakhena/nsqtest/")
 
 	log.GetLog().Info("Producer.main", "address: %s", cf.GetNSQdURL())
 
